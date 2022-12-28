@@ -12,7 +12,7 @@ namespace JobLessonASPNETMVCCore06Part02
             var dbContextOptionsBuilder = new DbContextOptionsBuilder<OrdersDbContext>()
                 .UseSqlServer("data source = SAFRONIV-HONOR\\SQLEXPRESS; " +
                 "initial catalog = OrdersDatabase; User Id = OrdersUser; Password =12345;" +
-                "MultipleActiveResultSets=True;App=EntityFramework: TrustServerCertificate=True");
+                "MultipleActiveResultSets=True;App=EntityFramework; TrustServerCertificate=True");
 
             using (var context = new OrdersDbContext(dbContextOptionsBuilder.Options))
             {

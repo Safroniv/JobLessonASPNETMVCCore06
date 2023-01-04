@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<autofac defaultAssembly="JobLessonASPNETMVCCore06v02">
+	<components name="0">
+		<type>JobLessonASPNETMVCCore06v02.Services.Impl.OrderService</type>
+		<services name="0" type="JobLessonASPNETMVCCore06v02.Services.IOrderService" />
+		<injectProperties>true</injectProperties>
+	</components>
+</autofac>

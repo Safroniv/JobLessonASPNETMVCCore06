@@ -58,7 +58,7 @@ namespace JobLessonASPNETMVCCore06v02
                         Birthday = DateTime.Now.AddYears(-26).Date,
                     });
 
-                    context.SaveChanges();
+                    context.SaveChanges(); 
                 }
 
                 foreach (var buyer in context.Buyers)

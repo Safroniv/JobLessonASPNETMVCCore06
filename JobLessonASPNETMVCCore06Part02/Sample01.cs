@@ -2,7 +2,7 @@
 using Orders.DAL;
 using Orders.DAL.Entities;
 
-namespace JobLessonASPNETMVCCore06Part02
+namespace JobLessonASPNETMVCCore06v02
 
 {
     internal class Sample01
@@ -11,7 +11,7 @@ namespace JobLessonASPNETMVCCore06Part02
         {
             var dbContextOptionsBuilder = new DbContextOptionsBuilder<OrdersDbContext>()
                 .UseSqlServer("data source = SAFRONIV-HONOR\\SQLEXPRESS; " +
-                "initial catalog = OrdersDatabase; User Id = OrdersUser; Password =12345;" +
+                "initial catalog = OrdersDatabase2; User Id = OrdersUser; Password =12345;" +
                 "MultipleActiveResultSets=True;App=EntityFramework; TrustServerCertificate=True");
 
             using (var context = new OrdersDbContext(dbContextOptionsBuilder.Options))

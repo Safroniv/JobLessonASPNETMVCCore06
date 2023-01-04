@@ -1,0 +1,14 @@
+{
+  "defaultAssembly": "JobLessonASPNETMVCCore06v02",
+  "components": [
+    {
+      "type": "JobLessonASPNETMVCCore06v02.Services.Impl.OrderService",
+      "services": [
+        {
+          "type": "JobLessonASPNETMVCCore06v02.Services.IOrderService"
+        }
+      ],
+      "injectProperties": true
+    }
+  ]
+}
